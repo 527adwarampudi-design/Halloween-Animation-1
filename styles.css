@@ -2,6 +2,9 @@ html{
     background:#ff785a;
 }
 
+html:hover .spider{
+    top: -120%
+}
 .spiderweb {
     background:#fff;
     width:2px;
@@ -100,6 +103,23 @@ right:-60%;
 .legs.left .leg:nth-child(3){
     Transform:rotate(50deg);
     margin-left:-30px;
+}
+
+@keyframes look{
+    0% 40% 100%{
+        transformLtranslatex(0);
+    }
+    45% 95% {
+        transform: translatex(-110%);
+    }
+}
+
+@keyframes swing {
+    0% 100%{
+        transform: translate y(0);
+    }
+  50%{
+    transform: translatey(-20px);  }  
 }
 
 
