@@ -92,3 +92,14 @@ right:-60%;
     Transform:rotate(-20deg);
     margin-left:-20px;
 }
+
+.legs.left .leg:nth-child(3){
+    Transform:rotate(-50deg);
+    margin-left:30px;
+}
+.legs.left .leg:nth-child(3){
+    Transform:rotate(50deg);
+    margin-left:-30px;
+}
+
+
