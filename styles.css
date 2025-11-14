@@ -74,4 +74,21 @@ right:15px;
 right:-60%;
 }
 
+.legs.left .leg:nth-child(1){
+    transform:rotate(10deg);
+    margin-left:10px;
+}
 
+.legs.right .leg:nth-child(1){
+    transfrom:rotate(-10deg);
+    margin-left:-10px;
+}
+.legs.right .leg:nth-child(2){
+    transfrom:rotate(-20deg);
+    margin-left:-20px;
+}
+
+.legs.rights .leg:nth-child(2){
+    Transform:rotate(-20deg);
+    margin-left:-20px;
+}
